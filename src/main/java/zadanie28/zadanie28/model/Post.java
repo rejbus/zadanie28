@@ -16,4 +16,8 @@ public class Post {
     @Temporal(TemporalType.TIMESTAMP)
     private Date added = new Date();
 
+    public Post(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
